@@ -1,5 +1,5 @@
 import React from "react";
-import "./costum.scss";
+import "../assets/costum.scss";
 
 function App() {
   return <div className="App"></div>;
