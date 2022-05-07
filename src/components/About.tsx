@@ -6,7 +6,7 @@ export default function About() {
       <h1 className="about__header">ABOUT</h1>
       <div className="about-box">
         <div className="about-box-me">
-          <h2>About me,</h2>
+          <h2 className="about-box-me__header">About me,</h2>
           <p className="about-box-me__text">
             Hallo everyone, My name is Tomer, i am a driven JavaScript Frontend
             developer and React enthusiast. I like learning and applying new
