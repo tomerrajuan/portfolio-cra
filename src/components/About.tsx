@@ -65,12 +65,6 @@ export default function About() {
             </div>  */}
           </div>
         </div>
-        <a
-          className="about__link"
-          href="https://www.linkedin.com/in/tomer-rajuan-3406b0192/"
-        >
-          <i className="fab fa-linkedin"></i>
-        </a>
       </div>
     </div>
   );
