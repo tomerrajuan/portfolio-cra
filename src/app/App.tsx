@@ -3,6 +3,7 @@ import "../assets/costum.scss";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 import Welcome from "../components/Welcome";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Welcome />
       <About />
       <Contact />
+      <Projects />
     </div>
   );
 }
