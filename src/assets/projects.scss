@@ -1,0 +1,90 @@
+.projects {
+    width: 90vw;
+    margin-left: 5vw;
+    padding: 80px 0 30px 0;
+    &__header {
+        text-align: center;
+        margin-bottom: 80px;
+        color: #d85c5b;
+    }
+    &-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-header {
+            text-align: center;
+            &__link {
+                height: 30px;
+                margin: -5px 13px 0 13px;
+                color: #d63d1a;
+            }
+            & span {
+                font-size: 18px;
+            }
+        }
+    }
+    &-project {
+        margin: 30px;
+        &__img {
+            height: 200px;
+            width: 350px;
+            object-fit: contain;
+            border: 2px solid grey;
+            &-overlay {
+                opacity: 0;
+                height: 200px;
+                width: 350px;
+                margin-top: -200px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                background-color: rgba(186, 76, 99, 0.9);
+                border: 1px solid rgb(61, 61, 61);
+                i {
+                    cursor: pointer;
+                    font-size: 100px;
+                    align-self: center;
+                    color: rgba(43, 62, 80, 0.9);
+                    &:hover {
+                        color: #ffffff;
+                    }
+                }
+                &:hover {
+                    opacity: 1;
+                    z-index: 11;
+                    position: relative;
+                    transition-duration: 0.3s;
+                }
+            }
+        }
+        &-modal {
+            max-width: 90vw;
+            max-height: 90vh;
+            width: 90vw;
+            margin: 50px 5vw;
+            height: 90vh;
+            &-content {
+                max-height: 90vh;
+                height: 90vh;
+                padding: 20px;
+            }
+            &__close {
+                position: absolute;
+                right: 15px;
+            }
+            &__title {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 65px;
+                color: #d85c5b;
+            }
+            &--body {
+                &__headline {}
+                &__text {}
+            }
+            &-footer {
+                justify-content: center;
+            }
+        }
+    }
+}
