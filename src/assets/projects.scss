@@ -63,13 +63,13 @@
         }
         &-modal {
             max-width: 90vw;
-            max-height: 90vh;
             width: 90vw;
             margin: 50px 5vw;
-            height: 90vh;
+            &-body {
+                max-width: 700px;
+                align-self: center;
+            }
             &-content {
-                max-height: 90vh;
-                height: 90vh;
                 padding: 20px;
             }
             &__close {
@@ -77,10 +77,20 @@
                 right: 15px;
             }
             &__title {
-                text-align: center;
-                margin-top: 20px;
+                margin: 20px;
                 font-size: 65px;
+                text-align: center;
                 color: #d85c5b;
+            }
+            &__video {
+                height: 350px;
+                width: 700px;
+                align-self: center;
+                margin: 15px;
+                @media screen and (min-width: 300px) and (max-width: 900px) {
+                    max-width: 90%;
+                    height: auto;
+                }
             }
             &__img {
                 max-height: 300px;

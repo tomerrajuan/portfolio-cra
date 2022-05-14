@@ -55,13 +55,20 @@ export default function Project({
             >
               {title}
             </h2>
-
-            <video loop autoPlay muted height="300px">
-              <source src={gifUrl} type="video/mp4"></source>
-              <source src={gifUrl} type="video/ogg"></source>
-              Your browser does not support the video tag.
-            </video>
-            {/* <img className="projects-project-modal__img" src={gifUrl} alt="" /> */}
+            {gifUrl ? (
+              <video
+                className="projects-project-modal__video"
+                loop
+                autoPlay
+                muted
+              >
+                <source src={gifUrl} type="video/mp4"></source>
+                <source src={gifUrl} type="video/ogg"></source>
+                Your browser does not support the video tag.
+              </video>
+            ) : (
+              <img className="projects-project-modal__img" src={image} alt="" />
+            )}
             <div className="projects-project-modal-body modal-body">
               <h3 className="projects-project-modal-body__headline">
                 {headline}
