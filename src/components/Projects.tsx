@@ -47,6 +47,7 @@ export default function Projects() {
               <Project
                 key={idx}
                 image={item.image}
+                gifUrl={item.gifUrl}
                 title={item.title}
                 headline={item.headline}
                 text={item.text}
