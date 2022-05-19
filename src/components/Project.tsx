@@ -19,6 +19,8 @@ export default function Project({
   link,
   dataTarget,
 }: Props) {
+  console.log("gif: ", gifUrl);
+
   return (
     <>
       <div className="projects-project">
@@ -55,6 +57,7 @@ export default function Project({
             >
               {title}
             </h2>
+            <h3 className="projects-project-modal__headline">{headline}</h3>
             {gifUrl ? (
               <video
                 className="projects-project-modal__video"
@@ -70,9 +73,6 @@ export default function Project({
               <img className="projects-project-modal__img" src={image} alt="" />
             )}
             <div className="projects-project-modal-body modal-body">
-              <h3 className="projects-project-modal-body__headline">
-                {headline}
-              </h3>
               <p className="projects-project-modal-body__text">{text}</p>
             </div>
             <div className="projects-project-modal-footer modal-footer">

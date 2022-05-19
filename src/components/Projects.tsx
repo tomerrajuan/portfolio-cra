@@ -28,6 +28,7 @@ export default function Projects() {
                 <Project
                   key={idx}
                   image={item.image}
+                  gifUrl={item.gifUrl}
                   title={item.title}
                   headline={item.headline}
                   text={item.text}
@@ -37,25 +38,25 @@ export default function Projects() {
               )
           )}
         </div>
-      </div>
 
-      <h2 className="projects-container-header">Private Projects</h2>
-      <div className="projects-container">
-        {projects.map(
-          (item: any, idx: React.Key | null | undefined) =>
-            item.type === "private" && (
-              <Project
-                key={idx}
-                image={item.image}
-                gifUrl={item.gifUrl}
-                title={item.title}
-                headline={item.headline}
-                text={item.text}
-                link={item.link}
-                dataTarget={item.dataTarget}
-              />
-            )
-        )}
+        <h2 className="projects-container-header">Private Projects</h2>
+        <div className="projects-container">
+          {projects.map(
+            (item: any, idx: React.Key | null | undefined) =>
+              item.type === "private" && (
+                <Project
+                  key={idx}
+                  image={item.image}
+                  gifUrl={item.gifUrl}
+                  title={item.title}
+                  headline={item.headline}
+                  text={item.text}
+                  link={item.link}
+                  dataTarget={item.dataTarget}
+                />
+              )
+          )}
+        </div>
       </div>
     </>
   );
