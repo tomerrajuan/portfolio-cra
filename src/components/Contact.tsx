@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <section id="contact">
-      <h1 className="contact">Contact Us</h1>
+      <h1 className="contact">Contact Me</h1>
       <form
         action="https://formspree.io/f/tomer.rajuan@gmail.com"
         method="POST"
