@@ -1,0 +1,113 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9vh;
+    border-top: 1px solid lightgray;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 3vh;
+    color: $color-roman;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.form-control {
+    border-bottom: 1px solid $color-roman !important;
+}
+
+.form {
+    height: 70px;
+    position: relative;
+    width: 65vw;
+    margin-top: 6px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    input {
+        height: 100%;
+        color: #595f6e;
+        padding-top: 20px;
+        border: none;
+        outline: none;
+    }
+    label {
+        pointer-events: none;
+        height: 100%;
+        border-bottom: 2px solid grey;
+        span {
+            padding-left: 10px;
+            color: $color-roman;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            border-bottom: 3px solid #3eb9ec;
+            left: 0;
+            bottom: -5px;
+            transform: translateX(-100%);
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+    }
+}
+
+.textbox {
+    textarea {
+        border: 1px solid $color-roman;
+        min-height: 220px;
+        max-height: 500px;
+        max-width: 65vw !important;
+        padding: 12px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        resize: vertical;
+        outline: none;
+    }
+}
+
+.content-name {
+    position: absolute;
+    bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.form input:focus+.label-name .content-name,
+.form input:valid+.label-name .content-name {
+    transform: translateY(-150%);
+}
+
+.form input:focus+.label-name::after,
+.form input:valid+.label-name::after {
+    transform: translateX(-150%);
+}
+
+#sendMessageButton {
+    margin-top: 3vh;
+    background-color: $color-roman;
+    color: $white;
+    margin-bottom: 5vh;
+    padding: 10px 20px;
+    border-color: $color-roman;
+    &:hover {
+        background-color: $white;
+        color: $color-roman;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+    .form {
+        width: 80vw;
+    }
+    .textbox textarea {
+        max-width: 80vw !important;
+    }
+}
