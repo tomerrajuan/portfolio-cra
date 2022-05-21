@@ -11,10 +11,8 @@
     text-align: center;
     margin-bottom: 3vh;
     color: $color-roman;
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 1.2;
-    letter-spacing: 1px;
+    font-size: 35px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -61,16 +59,20 @@
 
 .textbox {
     textarea {
-        border: 1px solid $color-roman;
+        border: none;
+        border-bottom: 1px solid $color-roman;
         min-height: 220px;
         max-height: 500px;
         max-width: 65vw !important;
-        padding: 12px;
+        padding: 9px;
         border-radius: 5px;
         box-sizing: border-box;
         margin-top: 20px;
         resize: vertical;
         outline: none;
+        &::placeholder {
+            color: $color-roman;
+        }
     }
 }
 
