@@ -111,15 +111,4 @@ export const projects = [{
         gifUrl: gmaGif,
         type: "private",
     },
-
-    {
-        dataTarget: "project-10",
-        image: petition,
-        title: "Petition",
-        headline: "The petition projects is a combination of PostgreSQL back-end work for collecting signatures from authenticated users using a log-in and registration process.",
-        text: "This was the my first work with databases and my first attempt of collecting and deleting data from the database. From the front-end hand, i used the Canvas methods to collect the signature given by the user and stoe its path in the database.",
-        link: "https://github.com/tomerrajuan/petition",
-        gifUrl: "",
-        type: "private",
-    },
 ];
