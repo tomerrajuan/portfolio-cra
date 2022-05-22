@@ -6,7 +6,8 @@ interface Props {
   gifUrl?: string;
   title: string;
   headline: string;
-  text: string;
+  text?: string;
+  stack?: string;
   link: string;
   dataTarget: string;
 }
@@ -16,11 +17,10 @@ export default function Project({
   title,
   headline,
   text,
+  stack,
   link,
   dataTarget,
 }: Props) {
-  console.log("gif: ", gifUrl);
-
   return (
     <>
       <div className="projects-project">
@@ -73,7 +73,10 @@ export default function Project({
               <img className="projects-project-modal__img" src={image} alt="" />
             )}
             <div className="projects-project-modal-body modal-body">
-              <p className="projects-project-modal-body__text">{text}</p>
+              {text && (
+                <p className="projects-project-modal-body__text">{text}</p>
+              )}
+              {stack && <p className="projects-project-modal-stack">{stack}</p>}
             </div>
             <div className="projects-project-modal-footer modal-footer">
               <button

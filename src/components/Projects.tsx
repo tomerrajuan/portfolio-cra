@@ -4,8 +4,6 @@ import Project from "./Project";
 import { projects } from "../data/projects";
 
 export default function Projects() {
-  console.log("projects are: ", projects);
-
   return (
     <>
       <div className="projects" id="projects">
@@ -32,6 +30,7 @@ export default function Projects() {
                   title={item.title}
                   headline={item.headline}
                   text={item.text}
+                  stack={item.stack}
                   link={item.link}
                   dataTarget={item.dataTarget}
                 />
@@ -51,6 +50,7 @@ export default function Projects() {
                   title={item.title}
                   headline={item.headline}
                   text={item.text}
+                  stack={item.stack}
                   link={item.link}
                   dataTarget={item.dataTarget}
                 />
