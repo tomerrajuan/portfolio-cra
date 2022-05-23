@@ -27,6 +27,7 @@
   margin-top: 6px;
   overflow: hidden;
   margin-bottom: 30px;
+
   input {
     height: 100%;
     color: #595f6e;
@@ -34,10 +35,12 @@
     border: none;
     outline: none;
   }
+
   label {
     pointer-events: none;
     height: 100%;
     border-bottom: 2px solid grey;
+
     span {
       padding-left: 10px;
       color: $color-roman;

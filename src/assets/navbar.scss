@@ -4,9 +4,11 @@
   width: 100vw;
   padding: 5px 30px;
   text-transform: uppercase;
+
   &-collapse {
     justify-content: end;
   }
+
   &-brand {
     color: rgba(255, 255, 255, 0.55) !important;
     font-size: 16px;
@@ -17,6 +19,7 @@
 @media screen and (min-width: 280px) and (max-width: 900px) {
   .navbar {
     padding: 5px 10px;
+
     &-brand {
       font-size: 13px;
     }

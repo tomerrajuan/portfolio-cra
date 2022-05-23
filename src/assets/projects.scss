@@ -3,19 +3,23 @@
   width: 90vw;
   margin-left: 5vw;
   padding: 80px 40px 30px 40px;
+
   &__header {
     text-align: center;
     margin-bottom: 80px;
     color: #d85c5b;
   }
+
   &-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
+
     &-header {
       text-align: center;
       margin-bottom: 40px;
+
       &__link {
         height: 30px;
         margin: -5px 13px 0 13px;
@@ -29,6 +33,7 @@
   &-project {
     margin: 15px;
     background-color: #ffffff;
+
     &__img {
       height: 200px;
       width: 280px;
@@ -36,6 +41,7 @@
       padding: 15px 10px;
       border-radius: 3px;
       box-shadow: 0 3px 10px rgba(0, 0, 0, 20%);
+
       &-overlay {
         opacity: 0;
         height: 200px;
@@ -63,9 +69,11 @@
       max-width: 90vw;
       width: 90vw;
       margin: 50px 5vw;
+
       &-content {
         padding: 20px;
       }
+
       &-body {
         max-width: 700px;
         align-self: center;
@@ -76,6 +84,7 @@
         &-links {
           display: flex;
           align-items: center;
+
           p {
             margin-bottom: 0;
             font-size: 16px;
@@ -89,6 +98,7 @@
               color: rgba(36, 41, 46, 0.8);
             }
           }
+
           &__website {
             color: #d85c5b;
           }
@@ -98,36 +108,43 @@
           }
         }
       }
+
       &__close {
         position: absolute;
         right: 15px;
       }
+
       &__title {
         margin: 20px;
         font-size: 45px;
         text-align: center;
         color: #d85c5b;
       }
+
       &__headline {
         max-width: 700px;
         align-self: center;
         font-size: 25px;
       }
+
       &__video {
         height: 350px;
         width: 700px;
         align-self: center;
         margin: 40px 0;
       }
+
       &__img {
         max-height: 300px;
         max-width: 80vw;
         align-self: center;
         margin: 40px 0;
       }
+
       &-stack {
         text-align: center;
       }
+
       &-footer {
         justify-content: center;
       }
@@ -147,6 +164,7 @@
       &__img {
         height: 160px;
         width: 220px;
+
         &-overlay {
           width: 220px;
         }
@@ -157,21 +175,27 @@
           font-size: 30px;
           margin-top: 45px;
         }
+
         &__headline {
           font-size: 19px;
         }
+
         &__video {
           height: auto;
         }
+
         &-body {
           padding: 0;
+
           &__text {
             font-size: 15px;
           }
+
           &-links {
             p {
               font-size: 14px;
             }
+
             &__github {
               margin: 5px;
             }
