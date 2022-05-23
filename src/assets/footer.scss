@@ -31,3 +31,11 @@
     font-size: 12px;
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .footer {
+    &__copyright {
+      width: 180px;
+    }
+  }
+}
