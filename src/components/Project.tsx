@@ -8,7 +8,8 @@ interface Props {
   headline: string;
   text?: string;
   stack?: string;
-  link: string;
+  githubLink?: string;
+  websiteLink?: string;
   dataTarget: string;
 }
 export default function Project({
@@ -18,7 +19,8 @@ export default function Project({
   headline,
   text,
   stack,
-  link,
+  githubLink,
+  websiteLink,
   dataTarget,
 }: Props) {
   return (
@@ -77,6 +79,30 @@ export default function Project({
                 <p className="projects-project-modal-body__text">{text}</p>
               )}
               {stack && <p className="projects-project-modal-stack">{stack}</p>}
+
+              <div className="projects-project-modal-body-links">
+                {githubLink && (
+                  <>
+                    <p>see github</p>
+                    <a
+                      className="projects-project-modal-body-links__github"
+                      href={githubLink}
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </>
+                )}
+                {websiteLink && (
+                  <a
+                    className="projects-project-modal-body-links__website"
+                    href={websiteLink}
+                    target="_blank"
+                  >
+                    <p>visit website</p>
+                  </a>
+                )}
+              </div>
             </div>
             <div className="projects-project-modal-footer modal-footer">
               <button

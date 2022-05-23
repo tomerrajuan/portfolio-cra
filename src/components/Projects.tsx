@@ -31,7 +31,8 @@ export default function Projects() {
                   headline={item.headline}
                   text={item.text}
                   stack={item.stack}
-                  link={item.link}
+                  githubLink={item.githubLink}
+                  websiteLink={item.websiteLink}
                   dataTarget={item.dataTarget}
                 />
               )
@@ -51,7 +52,8 @@ export default function Projects() {
                   headline={item.headline}
                   text={item.text}
                   stack={item.stack}
-                  link={item.link}
+                  githubLink={item.githubLink}
+                  websiteLink={item.websiteLink}
                   dataTarget={item.dataTarget}
                 />
               )
