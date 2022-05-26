@@ -8,6 +8,7 @@ import bayernDigital from "../assets/images/bayern-digital.png";
 import bayernDigitalGif from "../assets/gifs/bayern-digital.mp4";
 import imageboard from "../assets/images/imageboard.png";
 import delicia from "../assets/images/delicia.png";
+import pingpong from "../assets/images/pingpong.png";
 import inter from "../assets/images/inter.jpg";
 import review from "../assets/images/review.png";
 import petition from "../assets/images/petition.png";
@@ -86,7 +87,7 @@ export const projects = [
     title: "Film-Studio",
     headline:
       "Film-Studio is an example website i took to practice. the website was made as a company Portfolio and shows essentials such as location, contact details, and a gallery that shows the companies projects (this project was't asked for by the company and was made without their consent)",
-    stack: "Using React, Redux, Typescript, Leaflet, Scss",
+    stack: "Using AWS, React, Leaflet, Scss",
     link: "https://github.com/tomerrajuan/inter",
     gifUrl: "",
     githubLink: "https://github.com/tomerrajuan/inter",
@@ -141,6 +142,19 @@ export const projects = [
     stack: "Using Html, Scss, JavaScript, slick.js",
     gifUrl: "",
     githubLink: "https://github.com/tomerrajuan/delicia",
+    websiteLink: "",
+    type: "private",
+  },
+
+  {
+    dataTarget: "project-11",
+    image: pingpong,
+    title: "Ping-Pong tables map",
+    headline:
+      "Map application where users can upload locations of ping-pong tables",
+    stack: "Using AWS, React, Scss",
+    gifUrl: "",
+    githubLink: "https://github.com/tomerrajuan/pingpong",
     websiteLink: "",
     type: "private",
   },
