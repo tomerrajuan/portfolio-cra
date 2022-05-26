@@ -1,13 +1,12 @@
 .projects {
   background-color: rgb(249, 251, 252);
-  width: 90vw;
-  margin-left: 5vw;
+  color: #d85c5b;
   padding: 80px 40px 30px 40px;
 
   &__header {
     text-align: center;
     margin-bottom: 80px;
-    color: #d85c5b;
+    font-weight: 700;
   }
 
   &-container {
@@ -19,14 +18,21 @@
     &-header {
       text-align: center;
       margin-bottom: 40px;
+      font-size: 25px;
 
       &__link {
-        height: 30px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
         margin: -5px 13px 0 13px;
         color: #d63d1a;
+        background-color: #ffffff;
+        &-img {
+          height: 30px;
+        }
       }
+
       & span {
-        font-size: 16px;
+        font-size: 14px;
       }
     }
   }
@@ -35,18 +41,19 @@
     background-color: #ffffff;
 
     &__img {
-      height: 200px;
-      width: 280px;
+      height: 230px;
+      width: 320px;
       object-fit: contain;
-      padding: 15px 10px;
+      padding: 15px 20px;
       border-radius: 3px;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 20%);
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
       &-overlay {
         opacity: 0;
-        height: 200px;
-        width: 280px;
-        margin-top: -200px;
+        height: 230px;
+        width: 320px;
+        margin-top: -230px;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -162,13 +169,13 @@
   .projects {
     &-project {
       &__img {
-        height: 160px;
-        width: 220px;
+        height: 190px;
+        width: 260px;
 
         &-overlay {
-          height: 160px;
-          width: 220px;
-          margin-top: -160px;
+          height: 190px;
+          width: 260px;
+          margin-top: -190px;
         }
       }
 

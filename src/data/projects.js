@@ -68,7 +68,7 @@ export const projects = [
     gifUrl: ipipeGif,
     githubLink: "https://github.com/tomerrajuan/ipipe",
     websiteLink: "https://ipipe-tec.com",
-    type: "private",
+    type: "private-live",
   },
 
   {

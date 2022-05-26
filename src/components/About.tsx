@@ -8,14 +8,14 @@ export default function About() {
         <div className="about-box-me">
           <h2 className="about-box-me__header">About me,</h2>
           <p className="about-box-me__text">
-            Hallo everyone, My name is Tomer, i am a driven JavaScript Frontend
-            developer and React enthusiast. I like learning and applying new
-            tools and methods, developing interesting and useful applications,
-            and also just enjoying the new things i learn. I enjoy seeing errors
-            getting solved and when finally something is working nice and clear.
-            I have found a new passion in coding, to join my other passion for
-            cooking. In a way i find them similar, in both i wish to make a nice
-            experience for the receiver. see more on Linkedin
+            My name is Tomer, i am a driven JavaScript Frontend developer and
+            React enthusiast. I like learning and applying new tools and
+            methods, developing interesting and useful applications, and also
+            just enjoying the new things i learn. I enjoy seeing errors being
+            solved and when finally something is working nice and clear. I have
+            found a new passion in coding, next to my passion for cooking. In a
+            way they have something in common, in both i wish to make a nice
+            experience for the receiver
           </p>
         </div>
         <div className="about-box-skills">

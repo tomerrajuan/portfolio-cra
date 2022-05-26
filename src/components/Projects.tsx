@@ -10,9 +10,14 @@ export default function Projects() {
         <h1 className="projects__header">PROJECTS</h1>
         <h2 className="projects-container-header">
           Projects at
-          <a href="https://www.init.de/" target="_blank" rel="noreferrer">
+          <a
+            className="projects-container-header__link"
+            href="https://www.init.de/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
-              className="projects-container-header__link"
+              className="projects-container-header__link-img"
               src={init}
               alt=""
             />
@@ -23,6 +28,27 @@ export default function Projects() {
           {projects.map(
             (item: any, idx: React.Key | null | undefined) =>
               item.type === "init" && (
+                <Project
+                  key={idx}
+                  image={item.image}
+                  gifUrl={item.gifUrl}
+                  title={item.title}
+                  headline={item.headline}
+                  text={item.text}
+                  stack={item.stack}
+                  githubLink={item.githubLink}
+                  websiteLink={item.websiteLink}
+                  dataTarget={item.dataTarget}
+                />
+              )
+          )}
+        </div>
+
+        <h2 className="projects-container-header">Private Projects - live</h2>
+        <div className="projects-container">
+          {projects.map(
+            (item: any, idx: React.Key | null | undefined) =>
+              item.type === "private-live" && (
                 <Project
                   key={idx}
                   image={item.image}

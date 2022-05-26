@@ -4,7 +4,11 @@
   align-items: center;
   justify-content: center;
   color: $color-roman;
-  padding-top: 80px;
+  padding: 80px 0;
+
+  &__header {
+    font-weight: 700;
+  }
 
   &-box {
     width: 90vw;
@@ -16,7 +20,7 @@
 
     &-me {
       width: 500px;
-      margin: 40px;
+      margin: 60px;
 
       &__header {
         font-size: 25px;
@@ -33,12 +37,15 @@
       display: flex;
       flex-direction: column;
       padding: 10px;
-      border: 1px solid;
+      border: 3px solid;
       margin: 0 40px;
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
       &__header {
         font-size: 25px;
         text-align: center;
+        margin-bottom: 15px;
       }
 
       &-flex {
@@ -52,15 +59,17 @@
           text-align: center;
 
           &__header {
-            font-size: 18px;
-            margin: 5px 0;
+            font-size: 17px;
+            margin: 10px 0;
             padding-bottom: 10px;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid rgb(191, 191, 191);
+            font-weight: 700;
           }
 
           &__skill {
             font-size: 14px;
-            margin: 2vh 0;
+            font-weight: 600;
+            margin: 15px 0;
             color: #212529;
           }
         }
@@ -74,13 +83,18 @@
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 550px) {
+@media screen and (min-width: 200px) and (max-width: 700px) {
   .about {
-    margin-bottom: 20px;
-
     &-box {
       width: 98vw;
-      padding: 0;
+      padding: 10px;
+      &-me {
+        width: 90vw;
+        margin: 40px 0;
+      }
+      &-skills {
+        margin: 0;
+      }
     }
   }
 }
