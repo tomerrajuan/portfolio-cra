@@ -40,6 +40,7 @@ export default function Projects() {
                   githubLink={item.githubLink}
                   websiteLink={item.websiteLink}
                   dataTarget={item.dataTarget}
+                  privateProj={item.type === "private"}
                 />
               )
           )}
@@ -61,6 +62,7 @@ export default function Projects() {
                   githubLink={item.githubLink}
                   websiteLink={item.websiteLink}
                   dataTarget={item.dataTarget}
+                  privateProj={item.type === "private"}
                 />
               )
           )}
@@ -82,6 +84,7 @@ export default function Projects() {
                   githubLink={item.githubLink}
                   websiteLink={item.websiteLink}
                   dataTarget={item.dataTarget}
+                  privateProj={item.type === "private"}
                 />
               )
           )}

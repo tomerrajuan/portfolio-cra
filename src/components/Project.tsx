@@ -1,6 +1,6 @@
 import React from "react";
 import ipipeImage from "images/ipipe.png";
-
+var classNames = require("classnames");
 interface Props {
   image: string;
   gifUrl?: string;
@@ -11,6 +11,7 @@ interface Props {
   githubLink?: string;
   websiteLink?: string;
   dataTarget: string;
+  privateProj: boolean;
 }
 export default function Project({
   image,
@@ -22,14 +23,25 @@ export default function Project({
   githubLink,
   websiteLink,
   dataTarget,
+  privateProj,
 }: Props) {
+  const imgClass = classNames({
+    "projects-project__img": true,
+    "projects-project__img-small": privateProj,
+  });
+
+  const overlayClass = classNames({
+    "projects-project__img-overlay": true,
+    "projects-project__img-overlay-small": privateProj,
+  });
+
   return (
     <>
       <div className="projects-project">
-        <img className="projects-project__img" src={image} alt="" />
+        <img className={imgClass} src={image} alt="" />
 
         <div
-          className="projects-project__img-overlay"
+          className={overlayClass}
           data-toggle="modal"
           data-target={"#" + dataTarget}
         >
