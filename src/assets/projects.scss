@@ -1,12 +1,12 @@
 .projects {
   background-color: rgb(249, 251, 252);
-  color: #d85c5b;
   padding: 80px 40px 30px 40px;
 
   &__header {
     text-align: center;
     margin-bottom: 80px;
     font-weight: 700;
+    color: #d85c5b;
   }
 
   &-container {
@@ -19,6 +19,7 @@
       text-align: center;
       margin-bottom: 40px;
       font-size: 25px;
+      color: #d85c5b;
 
       &__link {
         margin: -5px 13px 0 13px;
