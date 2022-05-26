@@ -37,9 +37,9 @@ export default function Project({
 
   return (
     <>
+      {/* project image */}
       <div className="projects-project">
         <img className={imgClass} src={image} alt="" />
-
         <div
           className={overlayClass}
           data-toggle="modal"
@@ -48,6 +48,8 @@ export default function Project({
           <i className="projects-project__img-overlay-icon fas fa-search-plus"></i>
         </div>
       </div>
+
+      {/* project modal */}
       <div
         className="modal fade"
         id={dataTarget}
@@ -65,13 +67,16 @@ export default function Project({
             >
               <span aria-hidden="true">&times;</span>
             </button>
+
             <h2
               className="projects-project-modal__title"
               id="exampleModalLabel"
             >
               {title}
             </h2>
+
             <h3 className="projects-project-modal__headline">{headline}</h3>
+
             {gifUrl ? (
               <video
                 className="projects-project-modal__video"
@@ -86,10 +91,12 @@ export default function Project({
             ) : (
               <img className="projects-project-modal__img" src={image} alt="" />
             )}
+
             <div className="projects-project-modal-body modal-body">
               {text && (
                 <p className="projects-project-modal-body__text">{text}</p>
               )}
+
               {stack && <p className="projects-project-modal-stack">{stack}</p>}
 
               <div className="projects-project-modal-body-links">
@@ -105,6 +112,7 @@ export default function Project({
                     </a>
                   </>
                 )}
+
                 {websiteLink && (
                   <a
                     className="projects-project-modal-body-links__website"
@@ -116,6 +124,7 @@ export default function Project({
                 )}
               </div>
             </div>
+
             <div className="projects-project-modal-footer modal-footer">
               <button
                 type="button"
