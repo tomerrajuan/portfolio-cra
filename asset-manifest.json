@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-cra/static/css/main.b88ae8a2.css",
+    "main.css": "/portfolio-cra/static/css/main.e846ed3a.css",
     "main.js": "/portfolio-cra/static/js/main.dc56337a.js",
     "static/js/787.bfd05018.chunk.js": "/portfolio-cra/static/js/787.bfd05018.chunk.js",
     "static/media/bayern-digital.mp4": "/portfolio-cra/static/media/bayern-digital.4fc5325506295fd6abd1.mp4",
@@ -17,12 +17,12 @@
     "static/media/logo.jpg": "/portfolio-cra/static/media/logo.f8a15698530acd09526c.jpg",
     "static/media/profile.jpeg": "/portfolio-cra/static/media/profile.24523baa9baa4dafdc1c.jpeg",
     "index.html": "/portfolio-cra/index.html",
-    "main.b88ae8a2.css.map": "/portfolio-cra/static/css/main.b88ae8a2.css.map",
+    "main.e846ed3a.css.map": "/portfolio-cra/static/css/main.e846ed3a.css.map",
     "main.dc56337a.js.map": "/portfolio-cra/static/js/main.dc56337a.js.map",
     "787.bfd05018.chunk.js.map": "/portfolio-cra/static/js/787.bfd05018.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b88ae8a2.css",
+    "static/css/main.e846ed3a.css",
     "static/js/main.dc56337a.js"
   ]
 }
