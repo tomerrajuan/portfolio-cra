@@ -21,11 +21,8 @@
       font-size: 25px;
 
       &__link {
-        padding: 10px;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
         margin: -5px 13px 0 13px;
         color: #d63d1a;
-        background-color: #ffffff;
         &-img {
           height: 30px;
         }
@@ -169,13 +166,13 @@
   .projects {
     &-project {
       &__img {
-        height: 190px;
-        width: 260px;
+        height: 200px;
+        width: 290px;
 
         &-overlay {
-          height: 190px;
-          width: 260px;
-          margin-top: -190px;
+          height: 200px;
+          width: 290px;
+          margin-top: -200px;
         }
       }
 

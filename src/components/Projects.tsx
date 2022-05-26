@@ -19,9 +19,10 @@ export default function Projects() {
             <img
               className="projects-container-header__link-img"
               src={init}
-              alt=""
+              alt="init"
             />
           </a>
+          <br />
           <span>(2020 - 2022)</span>
         </h2>
         <div className="projects-container">
