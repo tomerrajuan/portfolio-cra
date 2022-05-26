@@ -2,19 +2,15 @@ import ipipe from "../assets/images/logo.jpg";
 import ipipeGif from "../assets/gifs/ipipe.mp4";
 import wegweiserKommune from "../assets/images/wegweiser-kommune.jpg";
 import wegweiserKommuneGif from "../assets/gifs/wegweiser-kommune.mp4";
-
 import elternGeld from "../assets/images/elterngeld-digital.png";
 import elternGeldGif from "../assets/gifs/elterngeld-digital.mp4";
-
 import bayernDigital from "../assets/images/bayern-digital.png";
 import bayernDigitalGif from "../assets/gifs/bayern-digital.mp4";
-
 import imageboard from "../assets/images/imageboard.png";
-
+import delicia from "../assets/images/delicia.png";
 import inter from "../assets/images/inter.jpg";
 import review from "../assets/images/review.png";
 import petition from "../assets/images/petition.png";
-
 import gma from "../assets/images/gma.png";
 import gmaGif from "../assets/gifs/gma.mp4";
 
@@ -73,6 +69,33 @@ export const projects = [
 
   {
     dataTarget: "project-5",
+    image: gma,
+    title: "Gastronomy-app",
+    headline:
+      "Application being developed to help business follow their inventory and prices",
+    stack: "Using React, PostgresSQL, Express, Scss",
+    gifUrl: gmaGif,
+    githubLink: "https://github.com/tomerrajuan/gastronomy-app",
+    websiteLink: "",
+    type: "private",
+  },
+
+  {
+    dataTarget: "project-6",
+    image: inter,
+    title: "Film-Studio",
+    headline:
+      "Film-Studio is an example website i took to practice. the website was made as a company Portfolio and shows essentials such as location, contact details, and a gallery that shows the companies projects (this project was't asked for by the company and was made without their consent)",
+    stack: "Using React, Redux, Typescript, Leaflet, Scss",
+    link: "https://github.com/tomerrajuan/inter",
+    gifUrl: "",
+    githubLink: "https://github.com/tomerrajuan/inter",
+    websiteLink: "",
+    type: "private",
+  },
+
+  {
+    dataTarget: "project-7",
     image: review,
     title: "Re-view",
     headline:
@@ -84,21 +107,8 @@ export const projects = [
     type: "private",
   },
 
-  //   {
-  //     dataTarget: "project-6",
-  //     image: inter,
-  //     title: "Film-Studio",
-  //     headline: "Film-Studio is an example website with Projects gallery",
-  //     stack: "Using React, Redux, Typescript, Leaflet, Scss",
-  //     link: "https://github.com/tomerrajuan/inter",
-  //     gifUrl: "",
-  // githubLink: "",
-  // websiteLink: "",//
-  // type: "private",
-  //   },
-
   {
-    dataTarget: "project-7",
+    dataTarget: "project-8",
     image: imageboard,
     title: "Imageboard",
     headline:
@@ -110,7 +120,7 @@ export const projects = [
     type: "private",
   },
   {
-    dataTarget: "project-8",
+    dataTarget: "project-9",
     image: petition,
     title: "Petition",
     headline:
@@ -121,15 +131,16 @@ export const projects = [
     websiteLink: "",
     type: "private",
   },
+
   {
-    dataTarget: "project-9",
-    image: gma,
-    title: "Gastronomy-app",
+    dataTarget: "project-10",
+    image: delicia,
+    title: "Redesign",
     headline:
-      "Application being developed to help business follow their inventory and prices",
-    stack: "Using React, PostgresSQL, Express, Scss",
-    gifUrl: gmaGif,
-    githubLink: "https://github.com/tomerrajuan/gastronomy-app",
+      "A Redesign i did as a practice to a website. (this project was't asked for by the company and was made without their consent)",
+    stack: "Using Html, Scss, JavaScript, slick.js",
+    gifUrl: "",
+    githubLink: "https://github.com/tomerrajuan/delicia",
     websiteLink: "",
     type: "private",
   },
