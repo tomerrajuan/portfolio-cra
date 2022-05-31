@@ -12,10 +12,11 @@ export default function About() {
             React enthusiast. I like learning and applying new tools and
             methods, developing interesting and useful applications, and also
             just enjoying the new things i learn. I enjoy seeing errors being
-            solved and when finally something is working nice and clear. I have
+            solved and when finally something is working nice and clear.
+            {/* I have
             found a new passion in coding, next to my passion for cooking. In a
             way they have something in common, in both i wish to make a nice
-            experience for the receiver
+            experience for the receiver */}
           </p>
         </div>
         <div className="about-box-skills">
