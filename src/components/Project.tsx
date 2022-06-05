@@ -74,7 +74,6 @@ export default function Project({
             >
               {title}
             </h2>
-
             <h3 className="projects-project-modal__headline">{headline}</h3>
 
             {gifUrl ? (
@@ -89,7 +88,11 @@ export default function Project({
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img className="projects-project-modal__img" src={image} alt="" />
+              <img
+                className="projects-project-modal__img"
+                src={image}
+                alt={title}
+              />
             )}
 
             <div className="projects-project-modal-body modal-body">
