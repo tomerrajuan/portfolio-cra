@@ -8,15 +8,11 @@ export default function About() {
         <div className="about-box-me">
           <h2 className="about-box-me__header">About me,</h2>
           <p className="about-box-me__text">
-            My name is Tomer, i am a driven JavaScript Frontend developer and
-            React enthusiast. I like learning and applying new tools and
-            methods, developing interesting and useful applications, and also
-            just enjoying the new things i learn. I enjoy seeing errors being
-            solved and when finally something is working nice and clear.
-            {/* I have
-            found a new passion in coding, next to my passion for cooking. In a
-            way they have something in common, in both i wish to make a nice
-            experience for the receiver */}
+            A driven JavaScript Frontend developer and React enthusiast. I like
+            learning and applying new tools and methods, developing interesting
+            and useful applications, and also just enjoying the new things i
+            learn. I enjoy seeing errors being solved and when finally something
+            is working nice and clear.
           </p>
         </div>
         <div className="about-box-skills">
@@ -61,9 +57,11 @@ export default function About() {
               </p>
             </div>
             {/* <div className="about-box-skills-flex-item">
-                <h3 className="about-box-skills-flex-item__header">Cloudtech</h3>
-                <p className="about-box-skills-flex-item__skill">Bluehost, FileZilla, Google Developer Donsole, Heroku</p>
-            </div>  */}
+              <h3 className="about-box-skills-flex-item__header">Cloudtech</h3>
+              <p className="about-box-skills-flex-item__skill">
+                Bluehost, FileZilla, Google Developer Console
+              </p>
+            </div> */}
           </div>
         </div>
       </div>

@@ -6,7 +6,8 @@ export default function Welcome() {
     <div className="welcome">
       <img className="welcome__image" src={profile} alt="" />
       <p id="welcome__text" className="welcome__text">
-        Frontend Web Developer - React enthusiast
+        Frontend Web Developer
+        <p>React enthusiast</p>
       </p>
     </div>
   );
