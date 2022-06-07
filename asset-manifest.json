@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-cra/static/css/main.71ea9f1c.css",
-    "main.js": "/portfolio-cra/static/js/main.2373bcd6.js",
+    "main.css": "/portfolio-cra/static/css/main.510c665d.css",
+    "main.js": "/portfolio-cra/static/js/main.1fbfdeb7.js",
     "static/js/787.bfd05018.chunk.js": "/portfolio-cra/static/js/787.bfd05018.chunk.js",
     "static/media/bayern-digital.mp4": "/portfolio-cra/static/media/bayern-digital.4fc5325506295fd6abd1.mp4",
     "static/media/elterngeld-digital.mp4": "/portfolio-cra/static/media/elterngeld-digital.962a91659a6ce01ab431.mp4",
@@ -19,12 +19,12 @@
     "static/media/logo.jpg": "/portfolio-cra/static/media/logo.f8a15698530acd09526c.jpg",
     "static/media/profile.jpeg": "/portfolio-cra/static/media/profile.24523baa9baa4dafdc1c.jpeg",
     "index.html": "/portfolio-cra/index.html",
-    "main.71ea9f1c.css.map": "/portfolio-cra/static/css/main.71ea9f1c.css.map",
-    "main.2373bcd6.js.map": "/portfolio-cra/static/js/main.2373bcd6.js.map",
+    "main.510c665d.css.map": "/portfolio-cra/static/css/main.510c665d.css.map",
+    "main.1fbfdeb7.js.map": "/portfolio-cra/static/js/main.1fbfdeb7.js.map",
     "787.bfd05018.chunk.js.map": "/portfolio-cra/static/js/787.bfd05018.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71ea9f1c.css",
-    "static/js/main.2373bcd6.js"
+    "static/css/main.510c665d.css",
+    "static/js/main.1fbfdeb7.js"
   ]
 }
