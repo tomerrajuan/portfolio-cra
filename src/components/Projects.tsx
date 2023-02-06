@@ -68,7 +68,9 @@ export default function Projects() {
           )}
         </div>
 
-        <h2 className="projects-container-header">Private Projects</h2>
+        <h2 className="projects-container-header">
+          Private and older Projects
+        </h2>
         <div className="projects-container">
           {projects.map(
             (item: any, idx: React.Key | null | undefined) =>

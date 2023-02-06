@@ -8,12 +8,13 @@ import bayernDigital from "../assets/images/bayern-digital.png";
 import bayernDigitalGif from "../assets/gifs/bayern-digital.mp4";
 import imageboard from "../assets/images/imageboard.png";
 import delicia from "../assets/images/delicia.png";
-import pingpong from "../assets/images/pingpong.png";
+// import pingpong from "../assets/images/pingpong.png";
 import inter from "../assets/images/inter.jpg";
 import review from "../assets/images/review.png";
 import petition from "../assets/images/petition.png";
 import gma from "../assets/images/gma.png";
 import gmaGif from "../assets/gifs/gma.mp4";
+import bmdv from "../assets/images/bmdv.png";
 
 export const projects = [
   {
@@ -146,16 +147,29 @@ export const projects = [
     type: "private",
   },
 
+  // {
+  //   dataTarget: "project-11",
+  //   image: pingpong,
+  //   title: "Ping-Pong tables map",
+  //   headline:
+  //     "Map application where users can upload locations of ping-pong tables",
+  //   stack: "Using AWS, React, Scss",
+  //   gifUrl: "",
+  //   githubLink: "https://github.com/tomerrajuan/pingpong",
+  //   websiteLink: "",
+  //   type: "private",
+  // },
+
   {
-    dataTarget: "project-11",
-    image: pingpong,
-    title: "Ping-Pong tables map",
+    dataTarget: "project-12",
+    image: bmdv,
+    title: "BMDV - Federal Ministry of Transport and Digital Infrastructure",
     headline:
-      "Map application where users can upload locations of ping-pong tables",
-    stack: "Using AWS, React, Scss",
+      "Implementation of an interactive map application,  displaying different projects across Germany.  Written in TypeScript, using Vite with vanilla Javascript, and Openlayers.",
+    stack: "Using vite, vanilla JavaScript, openlayers",
     gifUrl: "",
-    githubLink: "https://github.com/tomerrajuan/pingpong",
+    githubLink: "",
     websiteLink: "",
-    type: "private",
+    type: "init",
   },
 ];

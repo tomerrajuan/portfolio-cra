@@ -8,11 +8,11 @@ export default function About() {
         <div className="about-box-me">
           <h2 className="about-box-me__header">About me,</h2>
           <p className="about-box-me__text">
-            A driven JavaScript Frontend developer and React enthusiast. I like
-            learning and applying new tools and methods, developing interesting
-            and useful applications, and also just enjoying the new things i
-            learn. I enjoy seeing errors being solved and when finally something
-            is working nice and clear.
+            Frontend developer who enjoys solving problems using
+            resourcefulness, reusable and clean code. I enjoy developing
+            applications using Typescript with React with Redux and am
+            particularly passionate about developing maps. I know my way around
+            essential JavaScript libraries and am not afraid to use them.
           </p>
         </div>
         <div className="about-box-skills">
@@ -23,7 +23,7 @@ export default function About() {
                 Programming
               </h3>
               <p className="about-box-skills-flex-item__skill">
-                JavaScript, TypeScript, Node.js, SASS, HTML, CSS
+                React/Redux, JavaScript, TypeScript, Sass, Html/Css
               </p>
             </div>
             <div className="about-box-skills-flex-item">
@@ -31,7 +31,7 @@ export default function About() {
                 Frameworks / Tools
               </h3>
               <p className="about-box-skills-flex-item__skill">
-                React, Redux, jQuery, Express
+                React with Redux, jQuery, Handlebars, Node.js/Express
               </p>
             </div>
             <div className="about-box-skills-flex-item">
@@ -53,7 +53,16 @@ export default function About() {
                 Methodologies
               </h3>
               <p className="about-box-skills-flex-item__skill">
-                Atomic-Design, Bem, Agile
+                Agile, Atomic-Design, BEM
+              </p>
+            </div>
+
+            <div className="about-box-skills-flex-item">
+              <h3 className="about-box-skills-flex-item__header">
+                Soft Skills
+              </h3>
+              <p className="about-box-skills-flex-item__skill">
+                Honest Communicative Team Player Curious Respectful
               </p>
             </div>
             {/* <div className="about-box-skills-flex-item">
