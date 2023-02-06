@@ -23,7 +23,7 @@ export default function Projects() {
             />
           </a>
           <br />
-          <span>(2020 - 2022)</span>
+          <span>(2020 - present)</span>
         </h2>
         <div className="projects-container">
           {projects.map(
