@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-cra/static/css/main.510c665d.css",
-    "main.js": "/portfolio-cra/static/js/main.1fbfdeb7.js",
+    "main.css": "/portfolio-cra/static/css/main.e2972541.css",
+    "main.js": "/portfolio-cra/static/js/main.de3e4d1f.js",
     "static/js/787.bfd05018.chunk.js": "/portfolio-cra/static/js/787.bfd05018.chunk.js",
     "static/media/bayern-digital.mp4": "/portfolio-cra/static/media/bayern-digital.4fc5325506295fd6abd1.mp4",
     "static/media/elterngeld-digital.mp4": "/portfolio-cra/static/media/elterngeld-digital.962a91659a6ce01ab431.mp4",
-    "static/media/pingpong.png": "/portfolio-cra/static/media/pingpong.b5b1f5c190bd1df71d8c.png",
     "static/media/imageboard.png": "/portfolio-cra/static/media/imageboard.40b13c6ff74b626e4f49.png",
     "static/media/ipipe.mp4": "/portfolio-cra/static/media/ipipe.bfb26c4f5402b0e08d5e.mp4",
     "static/media/wegweiser-kommune.mp4": "/portfolio-cra/static/media/wegweiser-kommune.ba6300c128ab8ce6f399.mp4",
@@ -18,13 +17,14 @@
     "static/media/review.png": "/portfolio-cra/static/media/review.2a011b3e58bb7ed632b8.png",
     "static/media/logo.jpg": "/portfolio-cra/static/media/logo.f8a15698530acd09526c.jpg",
     "static/media/profile.jpeg": "/portfolio-cra/static/media/profile.24523baa9baa4dafdc1c.jpeg",
+    "static/media/elterngeld-digital.png": "/portfolio-cra/static/media/elterngeld-digital.b58ad418636b2d67aab4.png",
     "index.html": "/portfolio-cra/index.html",
-    "main.510c665d.css.map": "/portfolio-cra/static/css/main.510c665d.css.map",
-    "main.1fbfdeb7.js.map": "/portfolio-cra/static/js/main.1fbfdeb7.js.map",
+    "main.e2972541.css.map": "/portfolio-cra/static/css/main.e2972541.css.map",
+    "main.de3e4d1f.js.map": "/portfolio-cra/static/js/main.de3e4d1f.js.map",
     "787.bfd05018.chunk.js.map": "/portfolio-cra/static/js/787.bfd05018.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.510c665d.css",
-    "static/js/main.1fbfdeb7.js"
+    "static/css/main.e2972541.css",
+    "static/js/main.de3e4d1f.js"
   ]
 }
