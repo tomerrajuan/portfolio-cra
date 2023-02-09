@@ -1,9 +1,9 @@
 .projects {
-  padding: 80px 40px 30px 40px;
+  padding: 70px 40px 30px 40px;
 
   &__header {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     font-weight: 700;
     color: #d85c5b;
   }
@@ -12,11 +12,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 70px 0;
+    margin: 30px 0;
 
     &-header {
       text-align: center;
-      margin-bottom: 40px;
       font-size: 25px;
       color: #d85c5b;
 
@@ -38,37 +37,38 @@
     background-color: #ffffff;
 
     &__img {
-      height: 230px;
-      width: 320px;
+      height: 190px;
+      width: 270px;
       object-fit: contain;
       padding: 15px 20px;
       border-radius: 3px;
       box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
         rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
-      &-small {
-        height: 180px;
-        width: 270px;
-      }
+      // &-small {
+      //   height: 180px;
+      //   width: 270px;
+      // }
 
       &-overlay {
         opacity: 0;
-        height: 230px;
-        width: 320px;
-        margin-top: -230px;
+        height: 190px;
+        width: 270px;
+        margin-top: -190px;
         display: flex;
         justify-content: center;
         text-align: center;
-        background-color: rgba(33, 37, 41, 0.15);
+        background-color: rgba(33, 37, 41, 0.3);
 
-        &-small {
-          height: 180px;
-          width: 270px;
-          margin-top: -180px;
-        }
+        // &-small {
+        //   height: 180px;
+        //   width: 270px;
+        //   margin-top: -180px;
+        // }
+
         cursor: pointer;
         i {
-          font-size: 100px;
+          font-size: 75px;
           align-self: center;
           color: #ffffff;
         }
@@ -80,6 +80,7 @@
         }
       }
     }
+
     &-modal {
       max-width: 90vw;
       width: 90vw;
@@ -87,6 +88,7 @@
 
       &-content {
         padding: 20px;
+        font-size: 14px;
       }
 
       &-body {
@@ -131,29 +133,28 @@
 
       &__title {
         margin: 20px;
-        font-size: 45px;
+        font-size: 40px;
         text-align: center;
         color: #d85c5b;
       }
 
       &__headline {
         max-width: 700px;
+        font-weight: bold;
         align-self: center;
-        font-size: 25px;
+        font-size: 18px;
       }
 
       &__video {
-        height: 350px;
-        width: 700px;
+        max-height: 200px;
         align-self: center;
-        margin: 40px 0;
+        margin: 15px 0;
       }
 
       &__img {
-        max-height: 300px;
-        max-width: 80vw;
+        max-height: 200px;
         align-self: center;
-        margin: 40px 0;
+        margin: 15px 0;
       }
 
       &-stack {
